@@ -4,9 +4,8 @@ public class ClasePersona {
     private int edad;
     private double altura;
 
-    // Constructores
     public ClasePersona() {
-        // Constructor vacío
+
     }
 
     public ClasePersona(String nombre, int edad, double altura) {
@@ -15,7 +14,7 @@ public class ClasePersona {
         this.altura = altura;
     }
 
-    // Métodos
+    // Metodos
     public void saludar() {
         System.out.println("Hola, soy " + nombre);
     }
@@ -40,7 +39,7 @@ public class ClasePersona {
         return edad >= 18;
     }
 
-    // Métodos con parámetros y argumentos
+    // Metodos con parametros y argumentos
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
